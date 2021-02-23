@@ -1,22 +1,23 @@
 (function (blink) {
 	'use strict';
 
-	var cengage2021devStyle = function () {
+	var cengage2021demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	cengage2021devStyle.prototype = {
+	cengage2021demoStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_cengage2021dev',
+		bodyClassName: 'content_type_clase_cengage2021demo',
 		extraPlugins: ['cambridge_dropdown', 'blink_video_inline'],
 		ckEditorStyles: {
-			name: 'cengage2021dev',
+			name: 'cengage2021demo',
 			styles: [
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título video', element: 'h4', attributes: { 'class': 'titlevideo'} },
+				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
 
 				{ name: 'Caja negra', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-negra' } },
 				{ name: 'Caja learning', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-learning' } },
@@ -124,9 +125,9 @@
 		}
 	};
 
-	cengage2021devStyle.prototype = _.extend({}, new blink.theme.styles.basic(), cengage2021devStyle.prototype);
+	cengage2021demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), cengage2021demoStyle.prototype);
 
-	blink.theme.styles.cengage2021dev = cengage2021devStyle;
+	blink.theme.styles.cengage2021demo = cengage2021demoStyle;
 
 })( blink );
 
