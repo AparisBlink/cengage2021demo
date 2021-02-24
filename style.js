@@ -24,12 +24,12 @@
 
 
 				{ name: 'Enfasis audio', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'Enfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-02'} },
+				{ name: 'Enfasis 02 audio', element: 'span', attributes: { 'class': 'bck-enfasis-02'} },
 				{ name: 'Enfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-03'} },
 				{ name: 'Enfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-04'} },
 				{ name: 'Enfasis 5', element: 'span', attributes: { 'class': 'bck-enfasis-05'} },
 
-				{ name: 'Caja negra', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-negra' } },
+				{ name: 'Caja reading', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-negra' } },
 				{ name: 'Caja learning', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-learning' } },
 				{ name: 'Caja useful', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-useful' } },
 				{ name: 'Caja azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-azul' } },
