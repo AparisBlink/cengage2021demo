@@ -18,6 +18,16 @@
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título video', element: 'h4', attributes: { 'class': 'titlevideo'} },
 				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título 04 Basic', element: 'h4', attributes: { 'class': 'bck-title04'} },
+				{ name: 'Título 05 Basic', element: 'h4', attributes: { 'class': 'bck-title05'} },
+				{ name: 'Título 06 Basic', element: 'h4', attributes: { 'class': 'bck-title06'} },
+
+
+				{ name: 'Enfasis audio', element: 'h4', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Enfasis 2', element: 'h4', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'Enfasis 3', element: 'h4', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Enfasis 4', element: 'h4', attributes: { 'class': 'bck-enfasis-4'} },
+				{ name: 'Enfasis 5', element: 'h4', attributes: { 'class': 'bck-enfasis-5'} },
 
 				{ name: 'Caja negra', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-negra' } },
 				{ name: 'Caja learning', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-learning' } },
@@ -26,6 +36,7 @@
 				{ name: 'Caja amarilla', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-amarilla' } },
 				{ name: 'Caja Exam Task', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-actividad' } },
 				{ name: 'Caja Ideas Focus', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-tip' } },
+				{ name: 'Caja 01 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-01' } },
 
 
 				{ name: 'Lista Ordenada Alpha roja', element: 'ol', attributes: { 'class': 'bck-ol' } },
