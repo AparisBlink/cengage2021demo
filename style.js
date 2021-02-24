@@ -36,7 +36,11 @@
 				{ name: 'Caja amarilla', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-amarilla' } },
 				{ name: 'Caja Exam Task', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-actividad' } },
 				{ name: 'Caja Ideas Focus', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-tip' } },
-				{ name: 'Caja 01 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-01' } },
+				{ name: 'Caja 01 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-01' } },
+				{ name: 'Caja 02 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-02' } },
+				{ name: 'Caja 03 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-03' } },
+				{ name: 'Caja 04 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-04' } },
+				{ name: 'Caja 05 Basic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-05' } },
 
 
 				{ name: 'Lista Ordenada Alpha roja', element: 'ol', attributes: { 'class': 'bck-ol' } },
