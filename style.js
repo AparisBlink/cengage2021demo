@@ -23,11 +23,11 @@
 				{ name: 'Título 06 Basic', element: 'h4', attributes: { 'class': 'bck-title06'} },
 
 
-				{ name: 'Enfasis audio', element: 'h4', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'Enfasis 2', element: 'h4', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'Enfasis 3', element: 'h4', attributes: { 'class': 'bck-enfasis-3'} },
-				{ name: 'Enfasis 4', element: 'h4', attributes: { 'class': 'bck-enfasis-4'} },
-				{ name: 'Enfasis 5', element: 'h4', attributes: { 'class': 'bck-enfasis-5'} },
+				{ name: 'Enfasis audio', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Enfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-02'} },
+				{ name: 'Enfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-03'} },
+				{ name: 'Enfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-04'} },
+				{ name: 'Enfasis 5', element: 'span', attributes: { 'class': 'bck-enfasis-05'} },
 
 				{ name: 'Caja negra', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-negra' } },
 				{ name: 'Caja learning', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-learning' } },
